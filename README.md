@@ -1,2 +1,2 @@
-# adivina_la_palabra
+# Adivina la palabra
 Juego de adivinanza
