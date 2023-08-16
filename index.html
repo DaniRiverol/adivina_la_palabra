@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs/build/css/alertify.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Adiviva la palabra</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="game_container">
+        <div class="info_container">
+          <div class="score_time">
+            <span>Puntos: 0</span>
+            <span>Time: 00:15</span>
+          </div>
+        </div>
+        <h1>Adivina la palabra</h1>
+
+        <div class="word_container">
+          <!-- contenido dinamico -->
+        </div>
+        <h4 class="letters"></h4>
+        <h5 class="pista">Pista: </h5>
+
+        <div class="controls">
+          <input type="button" class="btn-start" value="Pedir pista" hidden />
+          <input type="button" class="btn-start" value="Start" />
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/alertifyjs/build/alertify.min.js"></script>
+    <script src="./js/words.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
